@@ -1,0 +1,17 @@
+name = input(" Please enter your first(given) name: ")
+str_pas = input(" Enter Programming Assignment Score: ")
+pas = int(str_pas)
+str_mts = input(" Enter Midterm Score: ")
+mts = int(str_mts)
+str_fns = input(" Final Exam Score: ")
+fns = int(str_fns)
+str_lab = input("Labs score: ")
+lab = int(str_lab)
+str_eps = input("Ebook and participation score: ")
+eps = int(str_eps)
+str_rs = input("review score: ")
+rs = int(str_rs)
+total_score = 45 * pas + 20 * mts + 15 * fns + 8 * lab + 7 * eps + 5 * rs
+fs = total_score / 100
+print("Hello", name)
+print("your final score for CS 1400 is:", fs)
